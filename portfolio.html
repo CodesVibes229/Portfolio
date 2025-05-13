@@ -5,11 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio – Pascal ATCHEKPE</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
-    header { background: #222; color: white; padding: 20px; text-align: center; }
-    section { padding: 20px; }
-    h2 { color: #444; }
-    .project { background: white; padding: 10px; margin-bottom: 10px; border-radius: 5px; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      padding: 20px;
+    }
+    h2 {
+      color: #444;
+    }
+    .project {
+      background: white;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    .project img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    a {
+      color: #007BFF;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -26,20 +59,27 @@
 
 <section>
   <h2>Projets</h2>
+
   <div class="project">
     <h3>Application Flask – Gestion de dépenses</h3>
-    <p>Développement backend avec Python et Flask, stockage en base SQLite, interface simple. <br><a href="https://github.com/CodesVibes229/Expense_Tracker" target="_blank">Voir sur GitHub</a></p>
+    <p>Développement backend avec Python et Flask, stockage en base SQLite, interface simple.</p>
+    <a href="https://github.com/CodesVibes229/Expense_Tracker" target="_blank">Voir sur GitHub</a>
+    <img src="assets/expense-tracker.png" alt="Capture d'écran de l'application de gestion de dépenses">
   </div>
+
   <div class="project">
     <h3>Script d’automatisation</h3>
-    <p>Script Python pour automatiser des tâches système (nettoyage de dossier, sauvegarde...). <br><a href="https://github.com/CodesVibes229/automated-backup-script.git" target="_blank">Voir sur GitHub</a></p>
+    <p>Script Python pour automatiser des tâches système (nettoyage de dossier, sauvegarde...).</p>
+    <a href="https://github.com/CodesVibes229/automated-backup-script.git" target="_blank">Voir sur GitHub</a>
+    <img src="assets/backup-script.png" alt="Illustration du script d'automatisation">
   </div>
+
 </section>
 
 <section>
   <h2>Contact</h2>
-  <p>Email : pascalaurel589@gmail.com</p>
-  <p>GitHub : <a href="https://github.com/CodesVibes229">CodesVibes229</a></p>
+  <p>Email : <a href="mailto:pascalaurel589@gmail.com">pascalaurel589@gmail.com</a></p>
+  <p>GitHub : <a href="https://github.com/CodesVibes229" target="_blank">CodesVibes229</a></p>
 </section>
 
 </body>
